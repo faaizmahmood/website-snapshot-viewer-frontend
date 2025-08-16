@@ -1,0 +1,43 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Font */
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+
+.outlined-btn {
+
+  padding: 5px 35px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+
+}
+
+.filled-btn {
+
+  padding: 5px 35px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  background-image: linear-gradient(79deg, #6433EA 9%, #EB489A 62%);
+}
+
+
+.row>* {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
