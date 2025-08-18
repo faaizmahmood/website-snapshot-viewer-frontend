@@ -41,3 +41,13 @@
 .row {
   --bs-gutter-x: 0 !important;
 }
+
+
+    .slick-list {
+        margin: 0 -10px; 
+    }
+
+    .slick-track {
+        display: flex !important;
+        gap: 20px !important;
+    }

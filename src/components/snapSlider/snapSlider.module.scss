@@ -1,0 +1,26 @@
+.snapSlider {
+    padding: 2rem;
+    color: white;
+
+    // Fix Slick’s wrapper so spacing is correct
+
+
+    .snapCard {
+        background: #1b2236;
+        border-radius: 12px;
+        overflow: hidden;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+
+        iframe {
+            border-radius: 10px;
+        }
+
+        h3 {
+            font-size: 18px;
+            color: white;
+        }
+
+    }
+
+}
