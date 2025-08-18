@@ -3,6 +3,7 @@ import { useState } from "react";
 import * as Yup from "yup";
 import axios from "axios";
 import { toast } from "sonner";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 // 🔹 Hook handles submission + business logic
 const useHome = () => {
@@ -29,7 +30,7 @@ const useHome = () => {
       setError(null);
 
       // Call your backend API
-      const res = await axios.get(`http://localhost:5000/api/shots/snapshots?domain=${domain}`);
+      const res = await axios.get(`${API_BASE_URL}/shots/snapshots?domain=${domain}`);
       setSnapshots(res.data);
       toast.success(`Found ${res.data.length} snapshots for ${domain}`);
     } catch (err: any) {
