@@ -15,7 +15,7 @@ const Header = () => {
 
                 </div>
 
-                <div className='col-3 d-flex justify-content-end gap-3 align-items-center'>
+                <div className='col-3 d-lg-block d-none d-flex justify-content-end gap-3 align-items-center'>
 
                     <button className='outlined-btn'>Login</button>
                     <button className='filled-btn'>Free Sign Up</button>

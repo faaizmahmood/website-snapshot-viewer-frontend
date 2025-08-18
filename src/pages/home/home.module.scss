@@ -22,6 +22,25 @@
             line-height: 72px;
             font-weight: 700;
 
+            @media (max-width:768px) {
+                & {
+
+                    font-size: 44px;
+                    line-height: 54px;
+
+                }
+            }
+
+            @media (max-width:576px) {
+                & {
+
+                    font-size: 28px;
+                    line-height: 44px;
+
+                }
+            }
+
+
 
             span {
                 background: linear-gradient(90deg, #812BD2, #EB489A);
@@ -49,6 +68,33 @@
             padding: 10px 10px;
             display: flex;
             align-items: center;
+
+            @media (max-width: 576px) {
+
+                & {
+                    display: block;
+                    width: calc(100% - 10%) !important;
+                    padding: 0px !important;
+                    border: 0px solid white;
+
+                    button {
+                        width: 100% !important;
+                        margin-top: 10px;
+                    }
+
+                    input {
+                        width: 100%;
+                        padding: 10px 20px !important;
+                        border: 1px solid white !important;
+                        outline: none;
+                        border-radius: 30px !important;
+                        background-color: transparent;
+                        color: white;
+
+                    }
+                }
+
+            }
 
             input {
                 width: 100%;
